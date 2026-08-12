@@ -7,6 +7,7 @@
 // Dumped by christian combine at 12:23 UTC+2 2026.08.12
 // Revival : BubbaBlox
 namespace Offsets {
+    uintptr_t luau_load = x(0x13DEB70) // aka deserialize | credits to speednextdoor for telling me this one
     uintptr_t print = x(0x672A90);
     uintptr_t lua_gettop = x(0x1537270);
     uintptr_t lua_createtable   = x(0x13E0580);

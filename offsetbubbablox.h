@@ -18,5 +18,6 @@ namespace Offsets {
     uintptr_t lua_pushcclosure = x(0x13DF700);
     uintptr_t lua_pushthread   = x(0x772140);
     uintptr_t luau_load        = x(0x13DEB70); // aka deserialize | credits to speednextdoor for telling me this one
+    uintptr_t lua_pushlightuserdata = x(0x85C9D0);
     uintptr_t ScriptContextVFTable = x(0x1DB66EC);
 }

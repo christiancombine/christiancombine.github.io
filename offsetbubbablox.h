@@ -13,7 +13,6 @@ namespace Offsets {
     uintptr_t lua_createtable   = x(0x13E0580);
     uintptr_t lua_pushstring    = x(0x13DF460);
     uintptr_t lua_setfield      = x(0x13DEB70);
-    uintptr_t lua_pushlstring   = x(0x13DEB70);
     uintptr_t lua_pushvalue     = x(0x13DF700);
     uintptr_t lua_settable      = x(0x13DEB70);
     uintptr_t lua_setmetatable  = x(0x13DE860);

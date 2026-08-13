@@ -13,7 +13,7 @@ namespace Offsets {
     uintptr_t lua_getfield     = x(0x13DDFA0);
     uintptr_t lua_next   = x(0x13DE5E0);
     uintptr_t luaS_newlstr = x(0x13F3790);
-    uintptr_t lua_pushstring   = x(0x13DEB70);
+    uintptr_t lua_pushstring   = x(0x0); // same offset as deserialize MB
     uintptr_t print            = x(0x6570D0);
     uintptr_t luaD_pcall       = x(0x13DE750);
     uintptr_t lua_pushcclosure = x(0x13DF700);
